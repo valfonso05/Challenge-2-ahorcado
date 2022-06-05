@@ -1,0 +1,83 @@
+body {
+    background-color: #e3eee3;
+    margin: 0px;
+}
+
+header div img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.logo{
+    padding: 1rem;
+    float: left;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+[type="button"]{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem; 
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.boton1{
+    background-color: #26ca99;
+    color: rgb(253, 252, 252);
+    border-color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.boton1:hover{
+    border: solid rgb(71, 143, 177)
+}
+
+.boton2:hover{
+    border: solid rgb(71, 143, 177)
+}
+
+.botones{
+    text-align: center;
+    margin-top: 20rem; 
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+footer{
+    text-align: center;
+    color: #13e683;
+    background: url(estados/bg.jpg);
+    margin-top: 4rem;
+    padding: 3.5rem;
+}
+
+.creador{
+    color: blue;
+    margin-bottom: 0.4rem;
+}
+
+div redessociales{
+    display: relative;
+}
+
+div redes{
+    position: absolute;
+    right: 0;
+}
+
+div li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+div li a img{
+    height: 4rem;
+    height: 4rem;
+}
+
+div li a img:hover{
+    transform: scale(1.5)
+}

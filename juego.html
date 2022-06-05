@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <title class="titulo">Challenge 2 - Juego Ahorcado | Oracle Next Education</title>
+        <header>
+            <div class="logo"><img src="estados/logo.png"/></div>
+            <h1 class = "encabezado"> Juego del ahorcado.</h1> 
+            <p class = "mandato">Solo letras mayusculas ni caracteres especiales.</p>
+        </header>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="./style-juego.css" />
+    <meta content="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main>
+        <div class="hombre-ahorcado">
+            <img id="hombre" alt="hombre-ahorcado" />
+        </div>
+        <div class="adivinado"></div>
+        <div class="errado"></div>
+        <form class="botones" action="javascrip:void(0)">
+            <input type="button" class="boton1" value="Nuevo juego" onclick="nuevoJuego()"/>
+            <input type="button" class="boton2" value="Desistir" onclick = "location.href='index.html'"/>
+            <script src="./app.js"></script>
+        </form>
+    </main>    
+    <footer>
+        <div class="fondocomentario">
+            <p class="creador">&copy Desarrollada por Victor Alfonso Moreno Nuñez - 2022.</p>
+            <p class="colaboraciones" >Colaboraciones: Carlos Sanchez y Eduén Sarceño.</p>
+            <img src="estados/bg.jpg" width="60" height="60" alt="InternetCtrl">
+        </div>
+        <div class="redessociales">
+            <li class="redes"><a class="imagenesredes" href="https://www.linkedin.com/in/valfonso05" target="blank"><img src="redes/linkedin.png"></a>
+            </li>
+            <li class="redes"><a class="imagenesredes" href="https://www.linkedin.com/in/valfonso05" target="blank"><img src="redes/github.png"></a>
+            </li>
+            <li class="redes"><a class="imagenesredes" href="https://twitter.com/valfonso05" target="blank"><img src="redes/twitter.png"></a>
+            </li>
+        </div>
+    </footer>
+</body>
+</html>

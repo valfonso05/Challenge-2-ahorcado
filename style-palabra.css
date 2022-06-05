@@ -1,0 +1,102 @@
+body {
+    background-color: #e3eee3;
+    margin: 0px;
+}
+
+header div img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.logo{
+    padding: 1rem;
+    float: left;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.entradaTexto{
+    background-color: #e3eee3;
+    margin-right: 5rem;
+    border: solid #aaa;
+    color: rgb(15, 83, 228);
+    padding: 6rem;
+    margin-top: 6rem;
+    margin-left: 30rem;
+}
+
+.entradaTexto:hover{
+    border: solid #26ca99;
+}
+
+.limite{
+    font-size: small;
+    margin-left: 30rem;
+}
+
+#boton1{
+    background-color: #26ca99;
+    width: 15rem;
+    padding: 1rem;
+    color: rgb(253, 252, 252);
+    border-color: #000;
+    text-align: center;
+    margin-top: 1rem; 
+    border-radius: 1rem;
+    margin-left: 26rem;
+}
+
+#boton2{
+    margin-top: 2rem;
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem; 
+    background-color: inherit;
+    cursor: pointer;
+}
+
+#boton1:hover{
+    border: solid rgb(71, 143, 177)
+}
+
+#boton2:hover{
+    border: solid rgb(71, 143, 177)
+}
+
+footer{
+    text-align: center;
+    color: #13e683;
+    background: url(estados/bg.jpg);
+    margin-top: 4rem;
+    padding: 3.5rem;
+}
+
+.creador{
+    color: blue;
+    margin-bottom: 0.4rem;
+}
+
+div redessociales{
+    display: relative;
+}
+
+div redes{
+    position: absolute;
+    right: 0;
+}
+
+div li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+div li a img{
+    height: 4rem;
+    height: 4rem;
+}
+
+div li a img:hover{
+    transform: scale(1.5)
+}
+
