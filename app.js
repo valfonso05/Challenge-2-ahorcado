@@ -55,7 +55,7 @@ window.agregarPalabra = function agregarPalabra(termino){
 
 // Funcion para llamar la pagina principal, luego de guardar la nueva palabra
 function llamarJuego(){
-    window.location.href="index.html";
+    window.location.href="juego.html";
 }
 
 
