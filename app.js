@@ -55,7 +55,7 @@ window.agregarPalabra = function agregarPalabra(termino){
 
 // Funcion para llamar la pagina principal, luego de guardar la nueva palabra
 function llamarJuego(){
-    window.location.href="index.html";
+    window.location.href="juego.html";
 }
 
 
@@ -157,7 +157,7 @@ window.onkeypress = function adivinarLetra(e){
     }
     dibujar(juego)
 }
-
+ 
 
 window.nuevoJuego = function nuevoJuego() {
  var palabra = palabraAleatoria()
